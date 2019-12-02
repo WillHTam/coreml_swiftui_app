@@ -14,6 +14,7 @@
 		3DBE00EE23958B7E0075A2BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBE00ED23958B7E0075A2BF /* Preview Assets.xcassets */; };
 		3DBE00F123958B7E0075A2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBE00EF23958B7E0075A2BF /* LaunchScreen.storyboard */; };
 		3DBE00FC23958B7E0075A2BF /* SleepAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE00FB23958B7E0075A2BF /* SleepAppTests.swift */; };
+		3DBE0107239590870075A2BF /* SleepModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE0106239590870075A2BF /* SleepModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3DBE00F723958B7E0075A2BF /* SleepAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBE00FB23958B7E0075A2BF /* SleepAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAppTests.swift; sourceTree = "<group>"; };
 		3DBE00FD23958B7E0075A2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBE0106239590870075A2BF /* SleepModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepModel.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				3DBE00EA23958B7E0075A2BF /* Assets.xcassets */,
 				3DBE00EF23958B7E0075A2BF /* LaunchScreen.storyboard */,
 				3DBE00F223958B7E0075A2BF /* Info.plist */,
+				3DBE0106239590870075A2BF /* SleepModel.mlmodel */,
 				3DBE00EC23958B7E0075A2BF /* Preview Content */,
 			);
 			path = SleepApp;
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBE0107239590870075A2BF /* SleepModel.mlmodel in Sources */,
 				3DBE00E523958B7C0075A2BF /* AppDelegate.swift in Sources */,
 				3DBE00E723958B7C0075A2BF /* SceneDelegate.swift in Sources */,
 				3DBE00E923958B7C0075A2BF /* ContentView.swift in Sources */,
